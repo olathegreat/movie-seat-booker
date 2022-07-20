@@ -1,0 +1,29 @@
+*{
+    color: white;
+    font-size: medium;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card, .breadcrumb{
+    border: 1px solid rgb(91, 178, 250);
+}
+option, select{
+    color: rgb(20, 20, 20);
+}
+.stage-display{
+    perspective: 500px;
+}
+button{
+    background-color: rgb(100, 99, 99);
+    box-shadow: none;
+    border: none;
+}
+.occupied{
+    background-color:rgb(91, 178, 250);
+}
+.selected{
+    background-color: aliceblue;
+}
+.row .seat:not(.occupied):hover{
+    transform:scale(1.2);
+    cursor: pointer;
+}

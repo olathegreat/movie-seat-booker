@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Movie booking slot</title>
+        <link rel="stylesheet" type="text/css" href="./resources/css/bootstrap.min.css">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+
+    </head>
+    <body class="bg-dark">
+
+        <div class="container">
+            <div class="card bg-dark mt-5">
+                <div class="card-content mr-auto ml-auto mt-5 mb-5">
+                    <form action="">
+                        <div class="form-group">
+                            <label>Pick a Movie:</label>
+                            <select id="movie">
+                                <option class="" value="50">Spiderman ($50)</option>
+                                <option class="" value="40">Superman ($40)</option>
+                                <option class="" value="30">Batman ($30)</option>
+                                <option class="" value="25">Ironman ($25)</option>
+                            </select>
+                        </div>
+                    </form>
+
+                    <div class="breadcrumb bg-dark">
+                        <span class="mr-1" style="width: 20px; height: 20px; background-color: rgb(100, 99, 99); border-radius: 20px 20px 0px 0px;"></span>
+                        <span class="mr-5">N/A</span>
+
+                        <span class="mr-1" style="width: 20px; height: 20px; background-color: rgb(102, 206, 232); border-radius: 20px 20px 0px 0px;"></span>
+                        <span class="mr-5">Selected</span>
+
+                        <span class="mr-1" style="width: 20px; height: 20px; background-color: rgb(253, 249, 249); border-radius: 20px 20px 0px 0px;"></span>
+                        <span class="mr-5">Occupied</span>
+                    </div>
+
+
+                    <div class="card stage-display" style="width: 95%; height: 5vh; margin-right: auto;margin-left: auto;">
+
+                    </div>
+
+                    <div class="row mt-2">
+                        <div class="col col-sm-3">
+                            <button class="seat"  style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button  class="seat occupied" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+                        </div>
+                        <div class="col col-sm-6">
+                            <button class="seat"   style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button  class="seat occupied" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat"  style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button  class="seat occupied" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+
+
+                        </div>
+                        <div class="col col-sm-3">
+                            <button class="seat"  style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat"  style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="row mt-2 mr-auto ml-auto">
+                        <div class="col col-sm-3">
+                            <button class="seat"  style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat"   style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+                        </div>
+                        <div class="col col-sm-6">
+                            <button class="seat"   style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat"  style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat"  style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat"  style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+
+                        </div>
+                        <div class="col col-sm-3">
+                            <button class="seat"  style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat"  style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="row mt-2 mr-auto ml-auto">
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+                        </div>
+                        <div class="col col-sm-6">
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button  class="seat occupied"style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button  class="seat occupied"style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+
+                        </div>
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="row mt-2 mr-auto ml-auto">
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+                        </div>
+                        <div class="col col-sm-6">
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+
+                        </div>
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row mt-2 mr-auto ml-auto">
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button  class="seat occupied" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+                        </div>
+                        <div class="col col-sm-6">
+                            <button class="seat occupied" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+
+                        </div>
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="row mt-2 mr-auto ml-auto">
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+                        </div>
+                        <div class="col col-sm-6">
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button  class="seat"style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+
+                        </div>
+                        <div class="col col-sm-3">
+                            <button  class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="row mt-2 mr-auto ml-auto">
+                        <div class="col col-sm-3">
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+                        </div>
+                        <div class="col col-sm-6">
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+
+
+
+                        </div>
+                        <div class="col col-sm-3">
+                            <button  class="seat occupied" style="width: 20px; height: 20px;  border-radius: 20px 20px 0px 0px;"></button>
+                            <button class="seat occupied" style="width: 20px; height: 20px; border-radius: 20px 20px 0px 0px;"></button>
+
+
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="payment-display mr-auto">
+                        you have selected <span class="number" style="color: aqua;"> 4</span> seats for a price of $<span class="price" style="color: aqua;">480</span>
+                    </div>
+
+                    <div class="">
+                        <input type="submit" value="Pay Now" class="bg-primary mt-2 mr-auto ml-auto">
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+
+
+        <script type="text/javascript" src="./resources/js/jquery-3.5.1.min.js"></script>
+        <script type="text/javascript" src="./resources/js/boostrapjs/bootstrap.min.js"></script>
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>

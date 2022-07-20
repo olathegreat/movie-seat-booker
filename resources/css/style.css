@@ -1,0 +1,105 @@
+.firstclass{
+    color: green;
+    font-size: 30px;
+
+}
+body{
+    color: purple;
+    padding-bottom:30px;
+}
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(41, 40, 40, 0.568);
+}
+h5{
+    font-weight: 400;
+}
+table{
+    margin-bottom: 30px;
+}
+th{
+    padding-right: 50px;
+}
+td{
+    padding-left: 20px;
+}
+.value{
+    padding-left: 60px;
+}
+.instructions{
+    font-weight: 200;
+    margin-bottom: 30px;
+}
+.prompt input{
+    width: 20%;
+    ;
+}
+.prompt label{
+    float: left;
+    font-size: 15px;
+}
+p{
+    font-size: 14px;
+}
+.prevprev{
+    font-size: 10px;
+}
+.tre{
+    width: 50%;
+    margin-right: 0;
+    margin-left: 20%;
+}
+.prevprevprev{
+    font-size: 13px;
+    width: 100%;
+    margin-right: 10px;
+}
+.form{
+    width: 60%;
+    margin-left: 20%;
+    box-shadow: 3px 3px 5px rgba(59, 58, 58, 0.24);
+    padding-right: 50px;
+    padding-left: 50px;
+
+}
+.msg{
+    font-weight: 500;
+    font-size: 25px;
+}
+button{
+    border-radius: 15px;
+    margin-left: 45%;
+    margin-top: 10px;
+    background-color: rgba(128, 0, 128, 0.849);
+    color: white;
+}
+.section1{
+    margin-left: 3%;
+    background-color: rgba(203, 177, 228, 0.267);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    margin-bottom: 40px;
+}
+ .tada{
+    animation-iteration-count: 3;
+    animation-duration: 5s;
+}
+nav{
+    background-color: purple;
+}
+nav a{
+    color: white;
+}
+.navbar-toggler{
+    color: white;
+}
+.navbar {
+    margin-bottom: 20px;
+  }
+.calculator{
+    color: white;
+}
